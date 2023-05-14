@@ -3,7 +3,7 @@ import google.auth
 from googleapiclient.discovery import build
 
 # API 키 설정
-api_key = 'AIzaSyCV0mY6gLO8iyUfl5A5s9hMYvU2I4YnTX0'
+api_key = ''
 
 # API 클라이언트 생성
 youtube = build('youtube', 'v3', developerKey=api_key)
