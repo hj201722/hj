@@ -9,13 +9,13 @@ api_key = '~~'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # 검색어 설정
-queries = ['파이썬', 'python', 'Python', 'JAVA', '자바', 'java', 'Java', 'C 언어', 'Clanguage', 'html', 'HTML','리눅스', 'Linux', 'linux']
+queries = ['파이썬', 'python', 'Python','PYTHON', 'JAVA', '자바', 'java', 'Java','c언어','C언어','c 언어', 'C 언어', 'Clanguage', 'C language','html', 'HTML','리눅스', 'Linux', 'linux']
 
 # 국가 코드
 region_code = 'KR'
 
 # 검색 결과 출력 파일 설정
-output_file = 'output.txt'
+output_file = 'output0.1.txt'
 
 # 검색어마다 검색결과 크롤링하기
 for query in queries:
